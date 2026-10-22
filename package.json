@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "VUE_APP_SUBCONVERTER_DEFAULT_BACKEND=$VUE_APP_SUBCONVERTER_DEFAULT_BACKEND vue-cli-service build"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "atob": "^2.1.2",
