@@ -311,7 +311,7 @@ const advancedVideo = process.env.VUE_APP_ADVANCED_VIDEO
 const tgBotLink = process.env.VUE_APP_BOT_LINK
 const yglink = process.env.VUE_APP_YOUTUBE_LINK
 const bzlink = process.env.VUE_APP_BILIBILI_LINK
-  console.log(process.env.VUE_APP_SUBCONVERTER_DEFAULT_BACKEND)
+  console.log("console.log"+ process.env.VUE_APP_SUBCONVERTER_DEFAULT_BACKEND)
 export default {
   data() {
     return {
